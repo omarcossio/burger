@@ -15,7 +15,9 @@
 
 
 ## Description
+This is an app that will save different entries, in this case burgers, and allow the user to modify the entries and delete them. 
 
+This app uses mysql, express, and express-handlebars. 
 
 ## Visuals
 

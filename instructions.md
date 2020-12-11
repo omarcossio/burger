@@ -94,25 +94,25 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+1. Inside your `burger` directory, create a folder named `config`. (*********)
 
 2. Create a `connection.js` file inside `config` directory.
 
-   * Inside the `connection.js` file, setup the code to connect Node to MySQL.
+   * Inside the `connection.js` file, setup the code to connect Node to MySQL. (*********)
 
-   * Export the connection.
+   * Export the connection. (*********)
 
 3. Create an `orm.js` file inside `config` directory.
 
-   * Import (require) `connection.js` into `orm.js`
+   * Import (require) `connection.js` into `orm.js` (*********)
 
-   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
+   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database. (*********)
 
      * `selectAll()`
      * `insertOne()`
      * `updateOne()`
 
-   * Export the ORM object in `module.exports`.
+   * Export the ORM object in `module.exports`.(*********)
 
 #### Model setup
 
@@ -120,11 +120,11 @@ Having an active and healthy commit history on GitHub is important for your futu
 
   * In `models`, make a `burger.js` file.
 
-    * Inside `burger.js`, import `orm.js` into `burger.js`
+    * Inside `burger.js`, import `orm.js` into `burger.js` (*********)
 
-    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
+    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM. (*********)
 
-    * Export at the end of the `burger.js` file.
+    * Export at the end of the `burger.js` file. (*********)
 
 #### Controller setup
 
@@ -132,12 +132,12 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 2. In `controllers`, create the `burgers_controller.js` file.
 
-3. Inside the `burgers_controller.js` file, import the following:
+3. Inside the `burgers_controller.js` file, import the following:  (*********)
 
    * Express
    * `burger.js`
 
-4. Create the `router` for the app, and export the `router` at the end of your file.
+4. Create the `router` for the app, and export the `router` at the end of your file. (*********)
 
 #### View setup
 
@@ -203,7 +203,11 @@ All the recommended files and directories from the steps above should look like 
 
 ### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
+* Attempt to complete homework assignment as described in instructions.  (*********)
+* If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.  (*********)
+* Hosting on Heroku and  (*********)
+* adding a README.md are required for this homework.  (*********)
+* In addition, add this homework to your portfolio, more information can be found below. (*********)
  
 - - -
 
@@ -227,7 +231,7 @@ Add a `README.md` to your repository describing the project. Here are some resou
 
 ### Add To Your Portfolio
 
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
+After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.  (*********)
 
 - - -
 
