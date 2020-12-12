@@ -37,13 +37,12 @@ $(function() {
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
-      //var falseIndicator = false;
-      console.log("*!*!*!:");
-      console.log($("[name=devoured]:checked").val().trim());
-  
+      
+      //devoured is set to the integer value represeting false (0)
+      //because a burger cannot be devoured upon adding
       var newBurger = {
         burger_name: $("#ca").val().trim(),
-        devoured: $("[name=devoured]:checked").val().trim()
+        devoured: 0,
       };
   
       // Send the POST request.
