@@ -7,7 +7,7 @@
 * [Visuals](#visuals)
 * [Demo](#demo)
 * [Installation](#installation)
-* [usage](#usage)
+* [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributors](#contributor)
 * [License](#license)
