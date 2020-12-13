@@ -1,4 +1,4 @@
-console.log("YOU MADE IT, into the burger,js");
+console.log("YOU MADE IT, into the burger.js");
 
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
@@ -10,10 +10,7 @@ $(function() {
       }else{
         newDevoured = false;
       }
-      /*
-      var newDevoured = $(this).data("newdevoured");
-      console.log($(this).data("newdevoured"));
-      */
+      
   
       var newDevouredStatus = {
         devoured: newDevoured
