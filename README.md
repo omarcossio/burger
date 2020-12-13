@@ -20,6 +20,7 @@ This app uses mysql, express, and express-handlebars.
 ## Visuals
 ### Demo
 ![Demo](public/assets/images/Eat-Da-Burger-Demo.gif)
+[View/Use app on Heroku!](https://immense-retreat-97765.herokuapp.com/)
 ## Screenshot
 ![screenshot of app](public/assets/images/eatDaBurgerScreenshot.png)
 
@@ -35,8 +36,12 @@ npm install express-handlebars
 ## Usage 
 Using this app is very simple. If running app locally, npm start will begin the server and bring in terminal the server link to open in browser. Once it has been opened, user will have the ability to "eat", "order" or delete a burger. The eaten burgers will go into a different seccion so that the user can know what burgers they have created and "eaten". 
 
+If viewing app on Heroku, there is no need to install anything via terminal. The user can begin using the app by clicking "eat", "delete", or "place order" buttons and adding burgers. 
+
 ## Contributors
 Omar Cossio
+
+Code from 13-MVC/01-Activities/17-CatsApp from the UNCC Coding Bootcamp was used as a template for this project, and modified to fit needs of the project. 
 
 ## License
 ![License](https://img.shields.io/badge/license-ISC-green)
