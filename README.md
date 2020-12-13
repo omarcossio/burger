@@ -5,13 +5,11 @@
 ## Table of Contents
 * [Description](#description)
 * [Visuals](#visuals)
-* [Demo](#demo)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributors](#contributor)
+* [Contributors](#contributors)
 * [License](#license)
-* [Questions](#question)
+* [Questions](#questions)
 
 
 ## Description
@@ -20,19 +18,22 @@ This is an app that will save different entries, in this case burgers, and allow
 This app uses mysql, express, and express-handlebars. 
 
 ## Visuals
+### Demo
+![Demo](public/assets/images/Eat-Da-Burger-Demo.gif)
+## Screenshot
+![screenshot of app](public/assets/images/eatDaBurgerScreenshot.png)
 
 
-## Demo
 
 
 ## Installation 
-
+Cloning repo from [Github](https://github.com/omarcossio/burger)
+npm install express
+npm install mysql
+npm install express-handlebars
 
 ## Usage 
-
-
-## Roadmap
-
+Using this app is very simple. If running app locally, npm start will begin the server and bring in terminal the server link to open in browser. Once it has been opened, user will have the ability to "eat", "order" or delete a burger. The eaten burgers will go into a different seccion so that the user can know what burgers they have created and "eaten". 
 
 ## Contributors
 Omar Cossio
